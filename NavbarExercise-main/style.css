@@ -1,0 +1,39 @@
+#navbar
+{
+    padding:15px;
+    background-color: black;
+    
+}
+.nav{
+    overflow: hidden;
+}
+.nav a{
+    float: left;
+    text-align: center;
+    display:block;
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding:10px;
+}
+
+@media screen and(max-width: 767px)
+{
+    #navbar{
+        float: right;
+        flex-direction: column;
+    }
+}
+   
+@media screen and(min-width: 768px)
+{
+    #navbar{
+        flex-direction: row;
+    }
+    
+}
